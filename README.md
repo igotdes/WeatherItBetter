@@ -294,4 +294,4 @@ For questions about this project, please open an issue on GitHub.
 
 ---
 
-**Built with Google Gemini AI as part of a Kaggle Data Science Capstone Project**
+**Built with Google Gemini AI and Claude Code as part of the Google x Kaggle 5-Day AI Agents Intensive Course Capstone Project**
