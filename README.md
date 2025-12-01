@@ -94,6 +94,12 @@ You: I don't like wearing shorts
 You: quit
 ```
 
+## Screenshots
+
+<img width="520" height="498" alt="WeatherItBetter_Start" src="https://github.com/user-attachments/assets/79dfe8ce-bf7d-4446-b7e3-b7c3ff3e9627" />
+<img width="822" height="469" alt="WeatherItBetter_Recommendations" src="https://github.com/user-attachments/assets/8f522ad9-3ce8-445f-8034-add6e96fecb8" />
+
+
 ## Project Structure
 
 ```
