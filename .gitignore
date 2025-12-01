@@ -1,0 +1,206 @@
+# ============================================
+# SECURITY: Sensitive Files - NEVER COMMIT
+# ============================================
+
+# Environment variables with API keys
+.env
+.env.local
+.env.*.local
+
+# Google OAuth credentials
+credentials.json
+token.json
+client_secret*.json
+
+# API Keys and secrets files (NOT src/config.py which is safe)
+secrets.py
+secret_config.py
+
+# ============================================
+# Python
+# ============================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# ============================================
+# IDE / Editor
+# ============================================
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+
+# ============================================
+# OS Files
+# ============================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# ============================================
+# Application Data
+# ============================================
+
+# User data and preferences
+data/*.json
+data/*.db
+data/*.sqlite
+!data/.gitkeep
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# ============================================
+# Streamlit
+# ============================================
+
+.streamlit/secrets.toml
+
+# ============================================
+# Google Cloud
+# ============================================
+
+# Service account keys
+*-key.json
+service-account*.json
+
+# ADK
+.adk/
+
+# ============================================
+# Misc
+# ============================================
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Archive files (usually contain old code)
+*.zip
+*.tar
+*.tar.gz
+*.rar
+
+# Keep these
+!.env.example
+!config.example.py
