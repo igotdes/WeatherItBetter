@@ -142,7 +142,7 @@ weatheritbetter-clean/
 ## How It Works
 
 1. **Weather Fetching**: Uses OpenWeatherMap API to get current weather conditions for your location
-2. **Activity Detection**: Optionally reads your Google Calendar to understand your daily activities
+2. **Activity Detection**: Reads your Google Calendar to understand your daily activities
 3. **Preference Learning**: Saves your style preferences and temperature sensitivities
 4. **AI Generation**: Combines all context and uses Google Gemini AI to generate personalized outfit recommendations
 5. **Continuous Learning**: Your preferences are saved and applied to future recommendations
@@ -156,7 +156,7 @@ Fetches real-time weather data including:
 - Humidity and wind speed
 - Location information
 
-### Activity Agent (Optional)
+### Activity Agent
 Integrates with Google Calendar to detect:
 - Meeting formality levels (casual, business casual, formal)
 - Exercise activities
