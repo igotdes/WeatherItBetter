@@ -110,12 +110,12 @@ cp .env.example .env
       - User support email: your email
       - Developer contact: your email
       - Click "Save and Continue"
-      - **Scopes**: Click "Add or Remove Scopes", search for and add:
+      - Scopes: Click "Add or Remove Scopes", search for and add:
          - `.../auth/calendar.readonly` (View your calendars)
          - `.../auth/userinfo.email` (See your email address)
       - Click "Update" and "Save and Continue"
-    - **Test users**: Add your email address
-    - Click "Save and Continue"
+      - Test users: Add your email address
+      - Click "Save and Continue"
    - Application type: "Desktop app"
    - Name: WeatherItBetter
    - Click "Create"
