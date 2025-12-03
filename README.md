@@ -2,6 +2,8 @@
 
 An intelligent outfit recommendation system that combines real-time weather data, calendar activities, and personal preferences to suggest what to wear each day.
 
+📹 **[Watch Demo Video](https://www.youtube.com/watch?v=5OfgU_uqemk)** (3 minutes)
+
 ## Features
 
 - **Weather-Aware Recommendations**: Fetches real-time weather data from OpenWeatherMap
