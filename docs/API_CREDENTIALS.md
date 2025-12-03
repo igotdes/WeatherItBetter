@@ -95,7 +95,10 @@ Google Calendar integration allows the app to consider your scheduled activities
      - User support email: your email
      - Developer contact: your email
      - Click "Save and Continue"
-     - Scopes: Skip for now, click "Save and Continue"
+     - Scopes: Click "Add or Remove Scopes", search for and add:
+       - `.../auth/calendar.readonly` (View your calendars)
+       - `.../auth/userinfo.email` (See your email address)
+       - Then click "Update" and "Save and Continue"
      - Test users: Add your email
      - Click "Save and Continue"
 
